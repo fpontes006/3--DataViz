@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b9a5bc15cde39771dd3f6f94b84fdb2b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b9a5bc15cde39771dd3f6f94b84fdb2b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b9a5bc15cde39771dd3f6f94b84fdb2b = L.map(
+                "map_b9a5bc15cde39771dd3f6f94b84fdb2b",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2f0c5a9a7bf56ca89c039228b46f0779 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_2f0c5a9a7bf56ca89c039228b46f0779.addTo(map_b9a5bc15cde39771dd3f6f94b84fdb2b);
+        
+    
+            var marker_f0448125c49471f2b09304c88775a60a = L.marker(
+                [52.0951, -170.9306],
+                {}
+            ).addTo(map_b9a5bc15cde39771dd3f6f94b84fdb2b);
+        
+    
+            var icon_bdf633e65c4e86b5ad94793b2c762004 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f0448125c49471f2b09304c88775a60a.setIcon(icon_bdf633e65c4e86b5ad94793b2c762004);
+        
+    
+        var popup_842713745577c85ad97aa118e7e42990 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cddab6256d6f4a84c653bfaebfe93ee = $(`<div id="html_8cddab6256d6f4a84c653bfaebfe93ee" style="width: 100.0%; height: 100.0%;">168 km SW of Nikolski, Alaska</div>`)[0];
+                popup_842713745577c85ad97aa118e7e42990.setContent(html_8cddab6256d6f4a84c653bfaebfe93ee);
+            
+        
+
+        marker_f0448125c49471f2b09304c88775a60a.bindPopup(popup_842713745577c85ad97aa118e7e42990)
+        ;
+
+        
+    
+    
+            var marker_506167a38e253b4fa9ea05f21443f9f5 = L.marker(
+                [-23.0467, -67.7818],
+                {}
+            ).addTo(map_b9a5bc15cde39771dd3f6f94b84fdb2b);
+        
+    
+            var icon_4b131c9ade5ff2ceb582f2e966f70650 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_506167a38e253b4fa9ea05f21443f9f5.setIcon(icon_4b131c9ade5ff2ceb582f2e966f70650);
+        
+    
+        var popup_4ba999c8a8841e2e084a818629eaf882 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d4a6d3e300667ed4e0aba035f2de68f = $(`<div id="html_1d4a6d3e300667ed4e0aba035f2de68f" style="width: 100.0%; height: 100.0%;">45 km ESE of San Pedro de Atacama, Chile</div>`)[0];
+                popup_4ba999c8a8841e2e084a818629eaf882.setContent(html_1d4a6d3e300667ed4e0aba035f2de68f);
+            
+        
+
+        marker_506167a38e253b4fa9ea05f21443f9f5.bindPopup(popup_4ba999c8a8841e2e084a818629eaf882)
+        ;
+
+        
+    
+</script>
+</html>
